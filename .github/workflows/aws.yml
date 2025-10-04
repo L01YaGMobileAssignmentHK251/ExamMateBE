@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd /home/ubuntu/actions-runner/_work/test_action/test_action
+          cd /home/ubuntu/actions-runner/_work/ExamMateBE/ExamMateBE
           uv sync
           source venv/bin/activate
 
