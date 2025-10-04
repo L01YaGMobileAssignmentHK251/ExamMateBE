@@ -21,7 +21,7 @@ jobs:
         run: |
           cd /home/ubuntu/actions-runner/_work/ExamMateBE/ExamMateBE
           uv sync
-          source venv/bin/activate
+          source .venv/bin/activate
 
       - name: Restart FastAPI service
         run: |
